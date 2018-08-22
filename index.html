@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Una Hormiga</title>
+    <style type="text/css">
+      body { 
+        margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        padding:0 10px;
+        background: #EEEEEE;
+      }
+      h1,h2,h3 {
+        line-height:1.2
+      }
+      li {
+        margin: 0 0 3.2px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Una Hormiga</h1>
+    </header>
+    <h2>Trabajos</h2>
+    <aside>Proyectos personales que ya no existen:</aside>
+    <ul>
+      <li>enquevoy.com: mapa de transporte y búsqueda de recorridos en la Ciudad de Buenos Aires. (Google Maps API, Google Charts API, jQuery, Python, Google App Engine).</li>
+      <li>predixit.com: juego de predicciones deportivas. (PHP, Zend Framework).</li>
+      <li><a name="redactado"></a>Redactado: adaptación de <a href="http://newsdiffs.org">NewsDiffs.org</a> para medios de Argentina. (Django, Python, git, lxml, BeautifulSoup, Twitter Bootstrap)</li>
+    </ul>
+    <h2>Visualizaciones</h2>
+    <ul>
+      <li><a href="http://calendiario.unahormiga.com/">Calendiario</a>: visualización en forma de calendario de las tapas del micro-stio <a href="http://tapas.clarin.com/">tapas.clarin.com</a>. ImageMagick para achicar y unir las tapas. Python para scraping y scripts. Flask para el sitio de desarrollo, Bootstrap para que no se vea tan feo y Frozen Flask para convertirlo en páginas estáticas.</li>
+      <li><a href="http://unahormiga.com/mapaverde/">Mapaverde</a>: mapa de densidad de arbolado en la Ciudad de Buenos Aires usando el dataset provisto por el GCBA y varias herramientas GIS (Quantum Gis, PostGIS, TileMill y Leaflet entre otras).</li>
+    </ul>
+    <h2>Bots</h2>
+    <aside>Detalle de algunos (en twitter la <a href="https://twitter.com/j_e_d/lists/bots/members">lista completa</a>):</aside>
+    <ul>
+      <li><a href="https://twitter.com/CadaParcela">CadaParcela</a>: usando la base del Relevamiento de Usos del Suelo de la Ciudad de Buenos Aires el bot publica imágenes de cada parcela disponibles por APIs de la ciudad y un mapa con la ubicación.</li>
+      <li><a href="https://twitter.com/columnistos">columnistOS</a>: contabilizá la cantidad de columnas de opinión, según el genero del autor, en la web de los principales diarios de Argentina y una vez por día genera un resumen en Twitter. El <a href="https://github.com/j-e-d/columnistos">código</a> lo usaron para hacer versiones en Chile, Colombia, Costa Rica y Paraguay. Idea de <a href="https://twitter.com/rusosnith">@rusosnith</a>.</li>
+      <li><a href="https://twitter.com/demoliendoBA">DemoliendoBA</a>: usando la base de permisos de obras de la Ciudad de Buenos Aires genera hilos de tres tweets por cada demoilicón, el primero con una imágen de la base de catastro de la ciudad anterior al permiso de obra, el segundo fotos posteriores a la fecha de demolición tomadas de Google Street View, y el tercero con la sección, manzana y parcela de la dirección.</li>
+      <li>Editando *: toma las noticias de la página principal de medios argentinos (y el New York Times), cuando detecta algún cambio en el título o la bajada genera una imágen que muestra que se eliminó y que se agregó. Son una adaptación de lo que hice para <a href="#redactado">Redactado</a> pero simplificado para Twitter. El <a href="https://github.com/j-e-d/nytdiff">código</a> de la versión para el NYT fue adaptado para otros medios.</li>
+      <li><a href="https://twitter.com/habitantesar">habitantesar</a>: usando los microdatos de la Encuesta Permanente de Hogares del INDEC genera pequeñas biografías de habitantes de la Argentina. Inspirado en <a href="https://twitter.com/censusAmericans">censusAmericans</a>.</li>
+    </ul>
+    <h2>Contacto</h2>
+    <ul>
+      <li>email: <a href="mailto:jed@unahormiga.com">jed@unahormiga.com</a></li>
+      <li>github: <a href="https://github.com/j-e-d/">j-e-d</a></li>
+      <li>twitter: <a href="https://twitter.com/j_e_d">@j_e_d</a></li>
+    </ul>
+    <hr>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA--','auto');ga('send','pageview');
+    </script> 
+  </body>
+</html>
