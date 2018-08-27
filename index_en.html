@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Una Hormiga</title>
+    <style type="text/css">
+      body { 
+        margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        padding:0 10px;
+        background: #EEEEEE;
+      }
+      h1,h2,h3 {
+        line-height:1.2
+      }
+      li {
+        margin: 0 0 3.2px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Una Hormiga</h1>
+    </header>
+    <h2>Work</h2>
+    <aside>Personal projects no longer online:</aside>
+    <ul>
+      <li>enquevoy.com: public transport map and route finder for the City of Buenos Aires. (Google Maps API, Google Charts API, jQuery, Python, Google App Engine).</li>
+      <li>predixit.com: sports predictions game. (PHP, Zend Framework).</li>
+      <li><a name="redactado"></a>Redactado: adaptation of <a href="http://newsdiffs.org">NewsDiffs.org</a> for Argentine newspapers. (Django, Python, git, lxml, BeautifulSoup, Twitter Bootstrap)</li>
+    </ul>
+    <h2>Visualizations</h2>
+    <ul>
+      <li><a href="https://calendiario.unahormiga.com/">Calendiario</a>: visualization as a calendar of the covers available at <a href="http://tapas.clarin.com/">tapas.clarin.com</a>. ImageMagick to resize and stich the covers. Python for scraping and scripts. Flask for the development site, Bootstrap for styling and Frozen Flask to convert it to static pages.</li>
+      <li><a href="https://mapaverde.unahormiga.com/">Mapaverde</a>: density map of trees in the City of Buenos Aires using the dataset provided by GCBA and multiple GIS tools (Quantum Gis, PostGIS, TileMill and Leaflet anong others).</li>
+    </ul>
+    <h2>Bots</h2>
+    <aside>Details of some ot them (at twitter the <a href="https://twitter.com/j_e_d/lists/bots/members">full list</a>):</aside>
+    <ul>
+      <li><a href="https://twitter.com/CadaParcela">CadaParcela</a>: using the database of the "Land Usage Survey" of the goverment of the City of Buenos Aires, the bot publishes images of each lot, available via public APIs and the location in a map.</li>
+      <li><a href="https://twitter.com/columnistos">columnistOS</a>: counts the number of OpEd columns according to the author gender, in the webpages of the most important Argentine media outlets, and once a day it generates a tweets with the stats. The <a href="https://github.com/j-e-d/columnistos">code</a> was used by other people to build sister bots for Chile, Colombia, Costa Rica and Paraguay. Original idea by <a href="https://twitter.com/rusosnith">@rusosnith</a>.</li>
+      <li><a href="https://twitter.com/demoliendoBA">DemoliendoBA</a>: using the database of construction and demolition authorization of the City of Buenos Aires goverment, it generates threads of three tweets for each demolition, the first one with an from before the demolition taken from the goverment land usage survey, the second shows images from Google Street View after the demolition date, and the third one a satelite image of the zone and diagrams of the block and lot.</li>
+      <li><a href="https://twitter.com/j_e_d/lists/editando/members">Editing *</a>: they check the news from the main page of multiple argentina news websites (and the New York Times), when it finds a change in the headline or the abstract of the news it generates an image that shows the text that was added and removed. It's an adaptation of what I did for <a href="#redactado">Redactado</a> but simplified for Twitter. The <a href="https://github.com/j-e-d/nytdiff">code</a> of the NYT version was cloned and adapted for other sites.</li>
+      <li><a href="https://twitter.com/habitantesar">habitantesar</a>: using the database of the "Encuesta Permanente de Hogares" (Community Survey) of INDEC it generates short bios of the people living in Argentina. Inspired by <a href="https://twitter.com/censusAmericans">censusAmericans</a>.</li>
+    </ul>
+    <h2>Contact</h2>
+    <ul>
+      <li>email: <a href="mailto:jed@unahormiga.com">jed@unahormiga.com</a></li>
+      <li>github: <a href="https://github.com/j-e-d/">j-e-d</a></li>
+      <li>twitter: <a href="https://twitter.com/j_e_d">@j_e_d</a></li>
+    </ul>
+    <hr>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-7756151-1','auto');ga('send','pageview');
+    </script> 
+  </body>
+</html>
